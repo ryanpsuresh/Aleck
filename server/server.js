@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const axios = require('axios');
 const parseURL = require('./parseURL.js');
 
-const port = process.env.PORT || 3468;
+const port = process.env.PORT || 8000;
 
 app.use(express.static(__dirname + '/../app'));
 app.use(bodyParser.json());
