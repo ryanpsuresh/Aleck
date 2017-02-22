@@ -5,3 +5,12 @@
   opacity: .8;
   position: absolute;
 }
+
+.readme {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+  z-index: 100;
+}
