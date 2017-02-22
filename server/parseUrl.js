@@ -11,7 +11,7 @@ function parseText(text) {
 
 exports.parseURL = function(text) {
   const APIs = {
-    reddit: 'https://www.reddit.com/search?q=' + text[text.indexOf('reddit') + 1],
+    reddit: 'https://www.reddit.com/search?q=' + text.slice(text.indexOf('reddit') + 1).join('+'),
     youtube: 'https://www.youtube.com/results?search_query=' + text.slice(text.indexOf('youtube') + 1).join('+'),
     twitter: 'https://twitter.com/search?f=tweets&vertical=default&q=' + text.slice(text.indexOf('twitter') + 1).join('+'),
     yelp: 'http://www.yelp.com/search?find_desc=' + text[text.indexOf('yelp') + 1],
