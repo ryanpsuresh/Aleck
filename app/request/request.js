@@ -20,12 +20,7 @@ angular.module('app.request', [])
 
         request.sendRequest(data)
           .then(function(APIdata) {
-            $scope.home = '';
-            $scope.home2 = '';
-            $scope.readme = '';
-            jQuery('#waves').hide();
-            jQuery('body').removeClass('bg');
-            $scope.APIdata = $sce.trustAsHtml(APIdata.data);
+            $window.open(APIdata.data);
           })
           .then(function(data) {
             record();

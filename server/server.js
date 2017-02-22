@@ -13,13 +13,7 @@ app.post('/', function(req, res) {
   const text = req.body.text.toLowerCase().split(' ');
   const url = parseURL.parseURL(text);
 
-  axios.get(url)
-    .then(function(response) {
-      res.send(response.data);
-    })
-    .catch(function(response) {
-      console.log('GET request from ' + url + ' unsuccessful.' + response);
-    });
+  res.send(url);
 });
 
 app.listen(port, function() {
