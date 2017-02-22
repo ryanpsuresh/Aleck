@@ -1,8 +1,8 @@
 function parseText(text) {
-  const pronouns = 'imemymineweusouroursyouyouryourshesheithimherhishersitstheythemtheirtheirstheofforfindgivegetsearchgoogle'
+  const excludedWords = 'findgivegetsearchgoogle'
 
   for (var i = 0; i < text.length; i++) {
-    if (pronouns.indexOf(text[i]) !== -1) {
+    if (excludedWords.indexOf(text[i]) !== -1) {
       text.splice(i, 1);
     }
   }

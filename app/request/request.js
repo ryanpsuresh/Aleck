@@ -6,7 +6,7 @@ angular.module('app.request', [])
   $scope.home2 = 'What can I do for you?';
   $scope.readme = 'README';
   $scope.openReadMe = function() {
-    $window.open('https://github.com/ricochen/kirk/blob/master/README.md', '_blank');
+    $window.open('', '_blank');
   }
   jQuery('#waves').show();
   jQuery('body').addClass('bg');
