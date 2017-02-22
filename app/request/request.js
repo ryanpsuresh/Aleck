@@ -6,12 +6,12 @@ angular.module('app.request', [])
   $scope.home2 = 'What can I do for you?';
   $scope.readme = 'README';
   $scope.openReadMe = function() {
-    $window.open('', '_blank');
+    $window.open('https://github.com/ryanpsuresh/Ash/blob/master/README.md', '_blank');
   }
   jQuery('#waves').show();
   jQuery('body').addClass('bg');
   record();
-  setInterval(record, 10000);
+  setInterval(record, 8000);
 
   function record() {
     if (speech.checkRecognition()) {
