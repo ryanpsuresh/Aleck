@@ -1,0 +1,18 @@
+{
+  "name": "Ash",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/ryanpsuresh/Ash",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_componenets/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sine-waves": "^0.3.0"
+  }
+}
