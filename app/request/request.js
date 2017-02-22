@@ -2,7 +2,7 @@ angular.module('app.request', [])
 
 .controller('RequestController', function($scope, $window, $sce, request, speech) {
   $scope.data = {};
-  $scope.home = 'Hi, I\'m kirk!';
+  $scope.home = 'Hi, I\'m Ash!';
   $scope.home2 = 'What can I do for you?';
   $scope.readme = 'README';
   $scope.openReadMe = function() {
