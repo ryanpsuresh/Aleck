@@ -21,6 +21,6 @@
 
 .bg {
   background: #1A2980;
-  background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE);
-  background: linear-gradient(to left, #1A2980 , #26D0CE);
+  background: -webkit-linear-gradient(to left, #1A2980 , #25e3c0);
+  background: linear-gradient(to left, #1A2980 , #25e3c0);
 }
