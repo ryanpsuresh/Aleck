@@ -11,11 +11,11 @@ function parseText(text) {
 
 exports.parseURL = function(text) {
   const APIs = {
-    reddit: 'https://www.reddit.com/r/' + text[text.indexOf('reddit') + 1],
+    reddit: 'https://www.reddit.com/search?q=' + text[text.indexOf('reddit') + 1],
     youtube: 'https://www.youtube.com/results?search_query=' + text.slice(text.indexOf('youtube') + 1).join('+'),
     twitter: 'https://twitter.com/search?f=tweets&vertical=default&q=' + text.slice(text.indexOf('twitter') + 1).join('+'),
     yelp: 'http://www.yelp.com/search?find_desc=' + text[text.indexOf('yelp') + 1],
-    news: 'http://abcnews.go.com/' + text[text.indexOf('news') - 1],
+    news: 'http://www.cnn.com/search/?text=' + text[text.indexOf('news') - 1],
     wikipedia: 'https://en.wikipedia.org/wiki/' + text.slice(text.indexOf('wikipedia') + 1).join('_'),
     stock: 'http://finance.yahoo.com/q?s=' + text[text.indexOf('stock') - 1],
     stackoverflow: 'http://stackoverflow.com/search?q=' + text.slice(text.indexOf('stackoverflow') + 1).join('+')
