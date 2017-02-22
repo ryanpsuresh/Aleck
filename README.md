@@ -1,5 +1,5 @@
 # Kirk
-### Siri's little brother
+### Siri and Alexa's little brother
 
 [Ash](https://kirk1.herokuapp.com/) is a search application that converts user speech into text, and retrieves data based on the content of the speech.
 
