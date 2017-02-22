@@ -19,8 +19,32 @@
   position: fixed;
 }
 
-.bg {
+/*.bg {
+  background: -webkit-linear-gradient(90deg, #001510, #00bf8f); 
+  background: -moz-linear-gradient(90deg, #001510, #00bf8f); 
+  background: linear-gradient(90deg, #001510, #00bf8f);
+}*/
+
+/*.bg {
   background: #1A2980;
-  background: -webkit-linear-gradient(to left, #1A2980 , #25e3c0);
-  background: linear-gradient(to left, #1A2980 , #25e3c0);
+  background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE);
+  background: linear-gradient(to left, #1A2980 , #26D0CE);
+}*/
+
+/*.bg {
+  background: -webkit-linear-gradient(90deg, #267871, #136a8a); 
+  background: -moz-linear-gradient(90deg, #267871, #136a8a); 
+  background: linear-gradient(90deg, #267871, #136a8a);
+}*/
+
+/*.bg {
+  background: -webkit-linear-gradient(90deg, #135058, #F1F2B5); 
+  background: -moz-linear-gradient(90deg, #135058, #F1F2B5); 
+  background: linear-gradient(90deg, #135058, #F1F2B5);
+}*/
+
+.bg {
+  background: -webkit-linear-gradient(90deg, #1D4350, #c2e59c);
+  background: -moz-linear-gradient(90deg, #1D4350, #c2e59c); 
+  background: linear-gradient(90deg, #1D4350, #c2e59c);
 }
