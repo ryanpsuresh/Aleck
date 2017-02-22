@@ -19,6 +19,12 @@
   position: fixed;
 }
 
+.bg {
+  background: -webkit-linear-gradient(90deg, #1D4350, #c2e59c);
+  background: -moz-linear-gradient(90deg, #1D4350, #c2e59c); 
+  background: linear-gradient(90deg, #1D4350, #c2e59c);
+}
+
 /*.bg {
   background: -webkit-linear-gradient(90deg, #001510, #00bf8f); 
   background: -moz-linear-gradient(90deg, #001510, #00bf8f); 
@@ -42,9 +48,3 @@
   background: -moz-linear-gradient(90deg, #135058, #F1F2B5); 
   background: linear-gradient(90deg, #135058, #F1F2B5);
 }*/
-
-.bg {
-  background: -webkit-linear-gradient(90deg, #1D4350, #c2e59c);
-  background: -moz-linear-gradient(90deg, #1D4350, #c2e59c); 
-  background: linear-gradient(90deg, #1D4350, #c2e59c);
-}
