@@ -19,7 +19,7 @@ Kirk listens for user speech every 10 seconds, even after a search has been made
 
 Please allow microphone access in the top right corner
 
-![microphone](https://github.com/ricochen/kirk/blob/master/app/assets/microphone.jpg)
+![microphone](https://github.com/ryanpsuresh/Ash/blob/master/app/assets/microphone.jpg)
 
 Example speech: "Can you show me `reddit` relationships?" will fetch https://www.reddit.com/r/relationships/
 
