@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # Kirk
 ### Siri's little brother
 
-[Kirk](https://kirk1.herokuapp.com/) is a search application that converts user speech into text, and retrieves data based on the content of the speech.
+[Ash](https://kirk1.herokuapp.com/) is a search application that converts user speech into text, and retrieves data based on the content of the speech.
 
-![kirk](https://github.com/ricochen/kirk/blob/master/app/assets/kirk.jpg)
+![Ash](https://github.com/ryanpsuresh/Ash/blob/master/app/assets/Ash.png)
 
 ### APIs & `keywords` to say:
 #####- Reddit: `reddit` + *subreddit*
@@ -27,40 +26,4 @@ Example speech: "Can you show me `reddit` relationships?" will fetch https://www
 *Note: * is a wildcard in which anything can be said*
 
 *If a keyword is not said, kirk will use Google's search API*
-=======
-Siri's little brother
 
-Ash is a search application that converts user speech into text, and retrieves data based on the content of the speech.
-
-Ash
-
-APIs & keywords to say:
-
-- Reddit: reddit + subreddit
-
-- YouTube: youtube + *
-
-- Twitter: twitter + *
-
-- Yelp: yelp + *
-
-- ABC News: * + news
-
-- Wikipedia: wikipedia + *
-
-- Yahoo Finance: stock + company name
-
-- Stack Overflow: stackoverflow + *
-
-Ash listens for user speech every 10 seconds, even after a search has been made
-
-Please allow microphone access in the top right corner
-
-microphone
-
-Example speech: "Can you show me reddit relationships?" will fetch https://www.reddit.com/r/relationships/
-
-Note: * is a wildcard in which anything can be said
-
-If a keyword is not said, kirk will use Google's search API
->>>>>>> c4f1a10149a7927e8682c8edec9e168f868a917e
