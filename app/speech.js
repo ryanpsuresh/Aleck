@@ -10,7 +10,7 @@ angular.module('app.speech', [])
 
   function checkRecognition() {
     if (!('webkitSpeechRecognition' in window)) { // If browser doesn't support WebSpeech API
-      console.log('Web Speech API not supported on this browser');
+      alert('Web Speech API is not supported on this browser - sorry!');
       return false;
     }
     return true;
