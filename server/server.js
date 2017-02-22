@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const bodyparser = require('body-parser');
+const bodyParser = require('body-parser');
 const axios = require('axios');
 const parseURL = require('./parseURL.js');
 
