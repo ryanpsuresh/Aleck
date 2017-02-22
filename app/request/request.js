@@ -11,7 +11,7 @@ angular.module('app.request', [])
   jQuery('#waves').show();
   jQuery('body').addClass('bg');
   record();
-  setInterval(record, 10000);
+  // setInterval(record, 10000);
 
   function record() {
     if (speech.checkRecognition()) {
@@ -26,6 +26,9 @@ angular.module('app.request', [])
             jQuery('#waves').hide();
             jQuery('body').removeClass('bg');
             $scope.APIdata = $sce.trustAsHtml(APIdata.data);
+          })
+          .then(function(data) {
+            record();
           })
           .catch(function (error) {
             console.error('Rendering HTML for APIdata unsuccessful ' + error);
