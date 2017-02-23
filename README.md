@@ -3,7 +3,7 @@
 
 [Aleck](https://kirk1.herokuapp.com/) is a search application that converts user speech into text, and retrieves data based on the content of the speech.
 
-![Aleck](https://github.com/ryanpsuresh/Ash/blob/master/app/assets/Ash.png)
+![Aleck](https://github.com/ryanpsuresh/Ash/blob/master/app/assets/Aleck.png)
 
 ### APIs & `keywords` to say:
 #####- Reddit: `reddit` + *subreddit*
