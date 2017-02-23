@@ -2,9 +2,10 @@
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: white;
-  font-size: 3em;
+  font-size: 3.3em;
   opacity: .8;
   position: absolute;
+  left: 20px;
 }
 
 .readme {
