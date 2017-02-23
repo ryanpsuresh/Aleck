@@ -16,6 +16,7 @@ angular.module('app.request', [])
     else {
       jQuery('.mic').removeClass('fa fa-microphone-slash fa-3x');
       jQuery('.mic').addClass('fa fa-microphone fa-3x');
+      record();
     }
   };
   jQuery('#waves').show();
@@ -24,16 +25,13 @@ angular.module('app.request', [])
   setInterval(record, 8000);
 
   function record() {
-    if (speech.checkRecognition()) {
+    if (speech.checkRecognition() && jQuery('.mic').hasClass('fa fa-microphone fa-3x')) {
       var recognition = speech.createRecognition();
       speech.speechToText(recognition, $scope.data, function(data) {
 
         request.sendRequest(data)
           .then(function(APIdata) {
             $window.open(APIdata.data);
-          })
-          .then(function(data) {
-            record();
           })
           .catch(function (error) {
             console.error('Rendering HTML for APIdata unsuccessful ' + error);
