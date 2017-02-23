@@ -5,6 +5,7 @@ angular.module('app.request', [])
   $scope.home = 'Hi, I\'m Aleck!';
   $scope.home2 = 'What can I do for you?';
   $scope.readme = 'README';
+  $scope.mic = 'Mic';
   $scope.openReadMe = function() {
     $window.open('https://github.com/ryanpsuresh/Ash/blob/master/README.md', '_blank');
   }

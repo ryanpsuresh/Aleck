@@ -15,6 +15,11 @@
   z-index: 100;
 }
 
+.mic {
+  color: white;
+  position: absolute;
+}
+
 #waves {
   position: fixed;
 }
