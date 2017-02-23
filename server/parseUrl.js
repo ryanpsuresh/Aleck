@@ -1,5 +1,5 @@
 function parseText(text) {
-  const excludedWords = 'findgivegetsearchgoogle'
+  const excludedWords = 'aleckalexalecfindgivegetsearchgoogle'
 
   for (var i = 0; i < text.length; i++) {
     if (excludedWords.indexOf(text[i]) !== -1) {
