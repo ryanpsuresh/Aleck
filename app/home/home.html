@@ -1,5 +1,6 @@
-<h1 class='home'>{{home}}</h1><br/><br/>
+<h1 class='home'>{{home}}</h1>
+<br/><br/>
 <h3 class='home'>{{home2}}</h3>
-<a class="readme" ng-mousedown="openReadMe()">{{readme}}</a>
-<a class="fa fa-microphone fa-3x mic" aria-hidden="true"></a>
+<a class='readme' ng-mousedown='openReadMe()'>{{readme}}</a>
+<a class='mic fa fa-microphone fa-3x' ng-click='changeMicStatus()' aria-hidden="true"></a>
 <div ng-bind-html="APIdata"></div>

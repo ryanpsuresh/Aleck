@@ -1,5 +1,6 @@
 .home {
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   color: white;
   font-size: 3em;
   opacity: .8;
@@ -18,17 +19,21 @@
 .mic {
   color: white;
   position: absolute;
+  right: 60px;
+  bottom: 50px;
+  cursor: pointer;
+  z-index: 100;
 }
 
 #waves {
   position: fixed;
 }
 
-.bg {
+/*.bg {
   background: -webkit-linear-gradient(90deg, #1D4350, #c2e59c);
   background: -moz-linear-gradient(90deg, #1D4350, #c2e59c); 
   background: linear-gradient(90deg, #1D4350, #c2e59c);
-}
+}*/
 
 /*.bg {
   background: -webkit-linear-gradient(90deg, #001510, #00bf8f); 
@@ -36,8 +41,8 @@
   background: linear-gradient(90deg, #001510, #00bf8f);
 }*/
 
-/*.bg {
+.bg {
   background: #1A2980;
   background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE);
   background: linear-gradient(to left, #1A2980 , #26D0CE);
-}*/
+}

@@ -5,10 +5,19 @@ angular.module('app.request', [])
   $scope.home = 'Hi, I\'m Aleck!';
   $scope.home2 = 'What can I do for you?';
   $scope.readme = 'README';
-  $scope.mic = 'Mic';
   $scope.openReadMe = function() {
     $window.open('https://github.com/ryanpsuresh/Ash/blob/master/README.md', '_blank');
-  }
+  };
+  $scope.changeMicStatus = function() {
+    if (jQuery('.mic').hasClass('fa fa-microphone fa-3x')) {
+      jQuery('.mic').removeClass('fa fa-microphone fa-3x');
+      jQuery('.mic').addClass('fa fa-microphone-slash fa-3x');
+    }
+    else {
+      jQuery('.mic').removeClass('fa fa-microphone-slash fa-3x');
+      jQuery('.mic').addClass('fa fa-microphone fa-3x');
+    }
+  };
   jQuery('#waves').show();
   jQuery('body').addClass('bg');
   record();
