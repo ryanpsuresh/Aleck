@@ -30,18 +30,21 @@
   position: fixed;
 }
 
+/* red/orange background gradient
 /*.bg {
-  background: -webkit-linear-gradient(90deg, #1D4350, #c2e59c);
-  background: -moz-linear-gradient(90deg, #1D4350, #c2e59c); 
-  background: linear-gradient(90deg, #1D4350, #c2e59c);
+  background: -webkit-linear-gradient(90deg, #d64759 10%, #da7352 90%); 
+  background: -o-linear-gradient(90deg, #d64759 10%, #da7352 90%); 
+  background: linear-gradient(90deg, #d64759 10%, #da7352 90%);
 }*/
 
+/* black/green background gradient
 /*.bg {
   background: -webkit-linear-gradient(90deg, #001510, #00bf8f); 
   background: -moz-linear-gradient(90deg, #001510, #00bf8f); 
   background: linear-gradient(90deg, #001510, #00bf8f);
 }*/
 
+/* light blue/dark blue background gradient
 .bg {
   background: #1A2980;
   background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE);
